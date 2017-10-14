@@ -12,6 +12,7 @@ def gene_code(number, length):
 
     result = []
     source = list(string.ascii_uppercase)  #添加26个英文字母   --可追加小写
+    source += list(string.ascii_lowercase)
 
     for index in range(0, 10):   #添加阿拉伯数字
         source.append(str(index))
